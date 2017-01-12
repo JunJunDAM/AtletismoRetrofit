@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Tipo de medalla : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <RadioButton
+        android:text="Oro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton" />
+
+    <RadioButton
+        android:text="Plata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:text="Bronze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3" />
+
+    <TextView
+        android:text="Nombre del atleta : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="ex : Usain"
+        android:ems="10"
+        android:id="@+id/editText4" />
+
+    <TextView
+        android:text="Tipo de competicion : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="ex : Salto de vallas"
+        android:ems="10"
+        android:id="@+id/editText5" />
+
+    <Button
+        android:text="Guardar"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+</LinearLayout>
